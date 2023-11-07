@@ -1,0 +1,160 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 1;
+}
+.kw_logo{
+    margin-left: 70px;
+    width: 100px;
+    height: 20px;
+    margin-top: 15px;
+}
+.cart_icon{
+    width: 25px;
+    height: 20px;
+    margin-top: 13px;
+
+}
+.cart_text{
+    position: relative;
+}
+#cart {
+    display: flex;
+    justify-content: space-between;
+}
+.bg_img{
+    height: 400px;
+}
+.text_shop{
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 100px;
+    font-size: 50px;
+    margin-top: -350px;
+    font-family: 'Lora', serif;
+}
+.text_havefun{
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    font-size: 50px;
+    font-family:'Lora', serif;
+}
+.text_repeat{
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    font-size: 50px;
+    font-family:'Lora', serif;
+}
+.new-and-now{
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    font-size: 25px;
+    font-family:'Lora', serif;
+}
+.discover,.discover_new_games,.handmade{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.book {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.prize {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.cart {
+    background-color: rgb(119, 144, 242);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 26px;
+}
+.button_cart{
+    position: relative;
+    margin-top: 10px;
+    height: 15px;
+    width: 20px;
+    margin-left: 5px;
+    margin: 5px;
+}
+.button_add{
+    font-size: small;
+    margin-bottom: 20px;
+    color:white;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.first-book {
+    width: 140px;
+}
+.second-book {
+    width: 275px;
+}
+.book-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.third-book {
+    width: 275px;
+}
+.book-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.final{
+    width: 100%;
+    background-color: rgb(174, 68, 68);
+}
+#brought{
+    color: white;
+}
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.girl_image{
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.discover,.discover_new_games,.handmade{
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+}
+@media screen and (max-width: 600px) {
+    .discover,.discover_new_games,.handmade{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .bg_img{
+        height: 200px;
+        width: 100%;
+    }
+    .text_shop,.text_havefun.text_repeat{
+        font-size: 1vh;
+    }
+    .new-and-now{
+        font-size: 15px;
+    }
+}
